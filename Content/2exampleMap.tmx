@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="2017.06.27" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="16" tileheight="16" nextobjectid="30">
+ <tileset firstgid="1" name="Roguelike" tilewidth="16" tileheight="16" spacing="1" tilecount="1767" columns="57">
+  <image source="Roguelike pack/Spritesheet/roguelikeSheet_transparent.png" width="968" height="526"/>
+ </tileset>
+ <tileset firstgid="1768" name="hyptosis_tile-art-batch-5" tilewidth="16" tileheight="16" tilecount="2964" columns="39">
+  <image source="hyptosis_tile-art-batch-5.png" width="636" height="1219"/>
+ </tileset>
+ <tileset firstgid="4732" name="16oga" tilewidth="16" tileheight="16" tilecount="50" columns="10">
+  <image source="16oga.png" width="160" height="80"/>
+ </tileset>
+ <tileset firstgid="4782" name="roguelikeSheet_transparent" tilewidth="32" tileheight="32" tilecount="480" columns="30">
+  <image source="Roguelike pack/Spritesheet/roguelikeSheet_transparent.png" width="968" height="526"/>
+ </tileset>
+ <tileset firstgid="5262" name="magecity" tilewidth="32" tileheight="32" tilecount="360" columns="8">
+  <image source="magecity.png" width="256" height="1450"/>
+ </tileset>
+ <layer name="Ground/terrain" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt18sKwjAQQNGA2o/y1Z/y8fuNIFhD7UqcwZzF2Q9cZkLGUsoIAAAAAPCHhgQzQLShET1Pz9oWmuiBHtl86qBHri7R8/RuU20buwRz9epYnRrnBHP1ot2Hix6hlvZBDz3QI5vH27H0XugRY2039tXt6Z5g1h6s9bATeXv4q//Gtbxu0qG83yo3KtZ8V9yqePNdsRsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8D0T1N6UzQ==
+  </data>
+ </layer>
+ <layer name="Ground overlay" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt11tO20AYgFGHPJSL1DWVyzqiPgF7KCyjApbERVSwIiYiFpPBaSa2xw7hHGkenAti/i/jQFUBAAAAwLLTvY8VP7bqOcqKZ/6/xTBye3znJgdh74eLdVR4DnqsdxLN4CxjDrfTqrqLVq5NWnzHTvW5iPf6K+OMpD1ym+jRrO5wvGK/687I0D3Sn7FrTtbs/2rLe+zaOfmzmPl+su8fYV23+P7I6dHX/WkXe9TqLvXKaTE3Zg8+G/N+NabZZOzfoFnbHnNfuce20uOzMc/OkD1Yr0uPOT361bVHSodu+u6xjbb1b6nU7zD7m8X82/Q4D/u8COty0nzNZl7D7Gctz8dNmPlrtP4m17eatPIyfe8Srxx3k+Xz0HRNWc/R5/9fch7S6xc9AAAAAICF+59V9RDWY1hPyWI4qzqkj1FeU4uc5+hfzrzT11BG7mffGSlv0xk7I2VtOt/56zUpo+39R48yusxVk/51uffE79OmP3008Z3Sr/uWM237PvLE822aczpzLYbX1CinFeWtauH/9nHlNGF8mgAAAAAAAAAAAAAAAAAAALvoDT1QHbI=
+  </data>
+ </layer>
+ <layer name="Objects" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztmrtuE0EUhtdru0AUqUAgpBCoeISAAnUkGhKQeAFAOKGhCFQIWTIICAgaiNKZWwuIJ6BKkAAhpaEFURDeghk8R4xPzlx21yaT9f9Jo/FeZu09/57LjDfLAAAAAAAAAAC4WGtk2VaFtj/f7TuoF+uN3R0PhoEeaQE90gJ6/D8WInLtOPR4XrMcfzaX+zI8EMYuWvvG5R/L6juu5e5+r6Bt38vlnugJ9yPtIzrq2JJ1fNWhx3wJO7n0eKWu9Tp393sFlxbc3j6fOcyOvVDbL3P5HNue3RHqUYTv6nt/WN+90h60FAj5B/WSP9j3xX3CtW8c8eqNam9NexcY31StpdpclvXV577el5IePv+Q/MSF7RPfGjv30fz62Rj0+KXatmm/s+HfwJkz551WWrSMHilRRgtfHWUfuy0c5/acKhizlJ4fttg1JD1crGR/tUhWD5cG1Idq2NicTOdpPcrkcULyjxm175hpxyP8T/uI1uRM+Z8xNkJ5g5/Lic3JXUuPMnmcGEU+T1kPX6zic4nYXOLDZ0/Ky76cLI0PzTH48RsqTqUar2LmH5ojkVpQHNc8EsaQPfX1eNyiPODLAZIefI7B7c+Pp6xHTC6X4tRRhz7b2bAmHN/8YyYiB8TEq9Ac8KbSQcWqfjtBPWLqKr49bbZtTZ6Y+j1Gj6I1FR9fZ6S6ivzhess9btpjU67JrLrORnPwmexZVpMierjmICkj1VVS/iCkODXr0Y2D9XY/VeflhJS77XxNOvrs2VE+tNz0f0/d9ZBiFdfCttOi6s+bzxdML2mhkeYZNL/mtj+n8s8VtX11wvXw5W6KWTF20lw05z/2rM1pe17K468pjZ8k7Lxhv5vzvkJNZK+5cHv+LJB7pPF1hseqKvfO668D1jXvt3e2h5Hr3XXXw/c/oOve7ed9Qz3fm6p9NM+5ncNJE9vPvlZ8H+7WCNZsUkaqo+ZZLcRtbrPU/Nc0Ug4PPdNV/q+fBLpMD9vmm0ybjtnvq1NDc8BRrFPWDVrLlXKvtvm91sDmJ9uDdsrEe10nXbZqJem/jbrH/HGzwPyj0xz2Ee4P+rxD5rP2rcVAHtqntD3RdDcgQ3a80xr4gG53W8P+YJ9HOq569AitWyF2uSE7flL9Z9O+NHY+76EaFv5RnTVPbcr38+2njhq1yjr7pFPlPZBQ/oZ/FKdMTTTF6gAXfL4RejcVDGx6sMJYwra1611H2sa80E2VOYM9tlfg2YdvuBmVHmA0QI+0gB5pAT3SAnqkBfRIC+iRFtAjLWBTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACkwB+qCihf
+  </data>
+ </layer>
+ <layer name="Path Details" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T+1lC6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAbnEAAAQ==
+  </data>
+ </layer>
+ <layer name="Doors/windows/roof" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt2LEuBEEYB/C5s1fgGTQ6vXMSKlRoNBrPQDR0aPTeguMxSAgVD0GvRmI2cXLhbtfl9uyG3y+ZZDNb7Jf/d7NzOyEAAAAAAMD/dZuEcJeUXQUd9UYIY42yq6BjIfZiUT8q46AWwmGt7Cog20ock2UXwaeZ+M54LrsIGNJUvewK6LapH8A/d5+E8OAcKddlzOiq4Jy+Zn8dr8cbIUw4t8i1GzN6LbgfafZHXdnPx+ulOJb1I9dszKhZcE69st+L34P7zpEyXcR8HuN4klMlbfj2qLR0r78ZwX5Pf1mZv6RzP9jvt62rwmRlnu71b0n+fn+qH4XJy3x9wL1+J/ZmTn9GZqvH3ElG3mfxXrvrfltvBrb6S/931/Rm4Aymh3xeKz7v/OOZTe+ub44rkoe1MVr98m31ma/K7+Kvysu3V7+skfJYDwAAAAAAAAAAAAAAAAAAAAAAAAAAAACDeQdKwyjR
+  </data>
+ </layer>
+ <layer name="Roof object" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztzgENAAAIA6CbyP7tjKGbkIAEAAAAAAAAAAAAAG7q2h4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHw3dOgAx
+  </data>
+ </layer>
+ <objectgroup name="Interactions">
+  <object id="9" name="Fence1" type="Obstructions" x="560" y="630" width="81.5" height="9.5">
+   <properties>
+    <property name="Fence" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="10" name="Fence2" type="Obstructions" x="736" y="519" width="83.5" height="9.5">
+   <properties>
+    <property name="Fence" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="16" name="Lake" type="Obstructions" x="575.333" y="540.667">
+   <properties>
+    <property name="Water" type="bool" value="true"/>
+   </properties>
+   <polyline points="0,0 37.6667,1 45.6667,-5.66667 45.6667,-30 48.3333,-31.3333 54,-30 61.6667,-37.3333 61.6667,-78.3333 65.3333,-80.3333 101.333,-79.3333 109.667,-83 110,-109 109.667,-196 100.667,-202.667 26,-201 19,-195 18.3333,-175.667 16.6667,-169.667 -35.6667,-169 -42.6667,-167.667 -44.3333,-156 -45.3333,-108.667 -47,-107.333 -55.3333,-105 -58,-104.333 -60.6667,-98.6667 -62,-75.6667 -59,-73.6667 -59.3333,-75.6667 -56.3333,-75.6667 -56.3333,-73.6667 -52,-73.3333 -52,-75.6667 -48.3333,-75.3333 -48.3333,-63 -50.3333,-62.6667 -50.3333,-64.3333 -56.3333,-63.6667 -57,-62.3333 -58,-63.3333 -58,-64.3333 -61.3333,-63.3333 -61,-44 -59.3333,-34.3333 -46.3333,-30.6667 -31.6667,-31 -23,-31.6667 -13.6667,-29.6667 -0.333333,-13 0,-1 0,0"/>
+  </object>
+  <object id="27" name="Water" type="Obstructions" x="834.505" y="352.399" width="40.6313" height="42.9755">
+   <properties>
+    <property name="Water" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="28" name="Water" type="Obstructions" x="1059.54" y="275.043" width="57.8215" height="56.2588">
+   <properties>
+    <property name="Water" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="29" name="Water" type="Obstructions" x="1234.57" y="271.917">
+   <properties>
+    <property name="Water" type="bool" value="true"/>
+   </properties>
+   <polygon points="0,0 58.6029,1.56274 56.2588,123.457 15.6274,125.02 14.0647,49.2264 0,43.7568 -1.56274,2.34412"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="Locations">
+  <object id="25" name="Campsite1" type="Location" x="544" y="226" width="140" height="106">
+   <properties>
+    <property name="containsBuildings" type="bool" value="true"/>
+    <property name="locationName" value="campsite1"/>
+   </properties>
+  </object>
+  <object id="24" name="Campsite2" type="Location" x="1033" y="162" width="322" height="268">
+   <properties>
+    <property name="containsBuildings" type="bool" value="true"/>
+    <property name="locationName" value="campsite2"/>
+   </properties>
+  </object>
+  <object id="22" name="Forest2" type="Location" x="271" y="498" width="112" height="139">
+   <properties>
+    <property name="locationName" value="forest2"/>
+   </properties>
+  </object>
+  <object id="21" name="Forest1" type="Location" x="272" y="224" width="127" height="272">
+   <properties>
+    <property name="locationName" value="forest1"/>
+   </properties>
+  </object>
+  <object id="18" name="Village1" type="Location" x="401" y="223" width="477" height="449">
+   <properties>
+    <property name="containsBuildings" type="bool" value="true"/>
+    <property name="locationName" value="Village1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Doors">
+  <object id="8" name="Door5" type="Door" x="425.667" y="481.333" width="14.3333" height="13"/>
+  <object id="7" name="Door4" type="Door" x="839.333" y="466" width="18.6667" height="13.3333"/>
+  <object id="5" name="Door2" type="Door" x="545.333" y="576.333" width="13.3333" height="15.6667"/>
+  <object id="1" name="churchDoor" type="Door" x="480.667" y="608.667" width="13.6667" height="14.6667"/>
+  <object id="6" name="Door3" type="Door" x="751.667" y="464" width="0.666667" height="13.6667"/>
+ </objectgroup>
+</map>

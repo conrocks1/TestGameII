@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="2017.06.27" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="16" tileheight="16" nextobjectid="30">
+ <tileset firstgid="1" name="Roguelike" tilewidth="16" tileheight="16" spacing="1" tilecount="1767" columns="57">
+  <image source="Roguelike pack/Spritesheet/roguelikeSheet_transparent.png" width="968" height="526"/>
+ </tileset>
+ <tileset firstgid="1768" name="hyptosis_tile-art-batch-5" tilewidth="16" tileheight="16" tilecount="2964" columns="39">
+  <image source="hyptosis_tile-art-batch-5.png" width="636" height="1219"/>
+ </tileset>
+ <tileset firstgid="4732" name="16oga" tilewidth="16" tileheight="16" tilecount="50" columns="10">
+  <image source="16oga.png" width="160" height="80"/>
+ </tileset>
+ <tileset firstgid="4782" name="roguelikeSheet_transparent" tilewidth="32" tileheight="32" tilecount="480" columns="30">
+  <image source="Roguelike pack/Spritesheet/roguelikeSheet_transparent.png" width="968" height="526"/>
+ </tileset>
+ <tileset firstgid="5262" name="magecity" tilewidth="32" tileheight="32" tilecount="360" columns="8">
+  <image source="magecity.png" width="256" height="1450"/>
+ </tileset>
+ <layer name="Ground/terrain" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztms9v3EQUx2e9uxVpJXICgRCl9FROXCgtbaCozSGiHGhAcECqOEDpD0Ag0fQAoYoUELSgcoG0t/C7cICKvwCB1NIfCJILVxCiP46cAYk38jz27cvMeJxNYsf5Hj6yPR5b6/fxm+fxepcxZhcAAAAAAAAAAC8zLWPmB2BDVv01NIkzrWqPB/BRZ5bax56sh2wL7QMr5yNG1dddBfsKrnvdMvn4qGFO9mb+5WI4QccOEesd9nloXJxvufLjCPFCZBnzcbFjzKVO9R449tOZf8l9pj3X4mtjDtG+wy4Go8TJgI8x1366Te2CVB/y3v+U+CyyjOVN1jWm3a3eBcc15ER7C53jdreP8+Jj4hN3rQ+7HOE+Mp5TAR8xJyEfZfiN+F1s7yQXIzXxUZQfvPTlA1+X9SBzguG20YLxalAfX9P6N45zBZ7o1IaGJjNizCytz9q2STrnGzV5jo7lhy9PfOxWOfFrK19y2+tZb3794TL4uEbr1x03TP9v0Iy4fg+Si47zUad6vxgX+jnqNRfzm7J8H1/fcdo3meXPVaH8GM56PkZpe4OJ+yCf382rWPt8hDiau6itj5ADXhY9w46J/eyFmcwW9rM+xtQ52cc9tO+vAh/sU8ZxE7Xd7dgcyAudI9bJQzWIf0p+cLuvr26bUm08Pku6op+Npz5mpet5XXzs94zdsbHqRLawr13eGckZvlaJvO5YPee6fC5yDb75h5xj+ND7J2ic4vGq6nxIyQ89/7DcIbafFOs6H3gctx7ey8I+7Pn0/IPrwI2SPvQcQ8df76+zj5Ra7hun7sr8+XDd9DuJ5Yeef2wSNaCMD01sDmiPOUYe6DfNdmvoI+W5Sm9vzHpO2Mf73XQfw0tUP2JOQlQd7zL5Ibft+iuRdzrsxFcvtJPtdJ7z7f54Sifs4xfqN9cp7yPkR85Bqo5zKr7nKl0/vqcY/dDp5QS329rxqou3dlJUz+9t5bFnH+dpfYhybH13cB91xPcs5SOlfrxMMfrHkysyN7h2MztMXq+pdtrx+n+PHE8b++PEMxT7GWI7re8m9pT0cYC2nycOtvzbqw3fWKXrxX0Uo63ufds4xepxF68n2n4XnBN6nmHh+TXHfp7OsZ94jNaPUvtEK92H/jbiA7V9ehU6idVu6+YruqY/iauea9O14ynn5VS3f4xaZ3rvTGw8n6V+ByjmB13c59q5F0mKD7su88G3XXV8B0XWDXn/feva5fsT+y5owrHT9I9Vx8Q55TE6Rn+U/B/ojPhNP6t80Ntzq9yHHqtS7i9b6y+4ei/Hqo0q724R53ynu5B3E/9/aMI9X+SA1/XYxdcuY2635f3+t3tBZeu9zRNbwzk32InNsxcz/z1clklPTWoSvnfqY+pZSMZc97W1/t9Or977arg9z+eROA7yf/1aYEr5kDG/4HLlR+fmENXeR6nfkYQazHPAl2h5fyQvQe9drq/22pi/3clj/kA3Z4fLB/uc9LTpPStxbp2K1KEvaN9Zsf8sfETZp/LD+niE1g+3e8h8sP1uc+s2t8YDdYgZIrdb2n4wdoVjwHF8k+L3XDvnLVrfbHr5IPuxx5MRH3bM2kZ86fpsxdi1gFAMOI6XaXnF8ZNnnlX0DJuaH/a+2FLw/dVaZSbybFo0D+P3Fnuz/mdUrufbAv6RG2F834GUPTYUX84PzgfUj/I+UhjO0o7V39gVfZsK8pjeugQuZaxD3zr6vIBwTAc5drrEvV82Ny7ebMwl4jJxRVF1/OrqYzkIedBtVcdwLfjwuUjZt9qpo4+UeOs+VcexqT5S7/2m5kidfJSNcRNzpM4+Uvo3zUldfCx2/IGPlfGxUsfWjbp8NzDI2COPa5KbqlkKJ02sKXVwstjaDhfL78UXZx1zuKiHoxRXYGXdyPg3dd6+WkhxUvVvBHACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaCb/Aej/z94=
+  </data>
+ </layer>
+ <objectgroup name="Interactions">
+  <object id="9" name="Fence1" type="Obstructions" x="560" y="630" width="81.5" height="9.5">
+   <properties>
+    <property name="Fence" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="10" name="Fence2" type="Obstructions" x="736" y="519" width="83.5" height="9.5">
+   <properties>
+    <property name="Fence" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="16" name="Lake" type="Obstructions" x="575.333" y="540.667">
+   <properties>
+    <property name="Water" type="bool" value="true"/>
+   </properties>
+   <polyline points="0,0 37.6667,1 45.6667,-5.66667 45.6667,-30 48.3333,-31.3333 54,-30 61.6667,-37.3333 61.6667,-78.3333 65.3333,-80.3333 101.333,-79.3333 109.667,-83 110,-109 109.667,-196 100.667,-202.667 26,-201 19,-195 18.3333,-175.667 16.6667,-169.667 -35.6667,-169 -42.6667,-167.667 -44.3333,-156 -45.3333,-108.667 -47,-107.333 -55.3333,-105 -58,-104.333 -60.6667,-98.6667 -62,-75.6667 -59,-73.6667 -59.3333,-75.6667 -56.3333,-75.6667 -56.3333,-73.6667 -52,-73.3333 -52,-75.6667 -48.3333,-75.3333 -48.3333,-63 -50.3333,-62.6667 -50.3333,-64.3333 -56.3333,-63.6667 -57,-62.3333 -58,-63.3333 -58,-64.3333 -61.3333,-63.3333 -61,-44 -59.3333,-34.3333 -46.3333,-30.6667 -31.6667,-31 -23,-31.6667 -13.6667,-29.6667 -0.333333,-13 0,-1 0,0"/>
+  </object>
+  <object id="27" name="Water" type="Obstructions" x="834.505" y="352.399" width="40.6313" height="42.9755">
+   <properties>
+    <property name="Water" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="28" name="Water" type="Obstructions" x="1059.54" y="275.043" width="57.8215" height="56.2588">
+   <properties>
+    <property name="Water" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="29" name="Water" type="Obstructions" x="1234.57" y="271.917">
+   <properties>
+    <property name="Water" type="bool" value="true"/>
+   </properties>
+   <polygon points="0,0 58.6029,1.56274 56.2588,123.457 15.6274,125.02 14.0647,49.2264 0,43.7568 -1.56274,2.34412"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="Locations">
+  <object id="25" name="Campsite1" type="Location" x="544" y="226" width="140" height="106">
+   <properties>
+    <property name="containsBuildings" type="bool" value="true"/>
+    <property name="locationName" value="campsite1"/>
+   </properties>
+  </object>
+  <object id="24" name="Campsite2" type="Location" x="1033" y="162" width="322" height="268">
+   <properties>
+    <property name="containsBuildings" type="bool" value="true"/>
+    <property name="locationName" value="campsite2"/>
+   </properties>
+  </object>
+  <object id="22" name="Forest2" type="Location" x="271" y="498" width="112" height="139">
+   <properties>
+    <property name="locationName" value="forest2"/>
+   </properties>
+  </object>
+  <object id="21" name="Forest1" type="Location" x="272" y="224" width="127" height="272">
+   <properties>
+    <property name="locationName" value="forest1"/>
+   </properties>
+  </object>
+  <object id="18" name="Village1" type="Location" x="401" y="223" width="477" height="449">
+   <properties>
+    <property name="containsBuildings" type="bool" value="true"/>
+    <property name="locationName" value="Village1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Doors">
+  <object id="8" name="Door5" type="Door" x="425.667" y="481.333" width="14.3333" height="13"/>
+  <object id="7" name="Door4" type="Door" x="839.333" y="466" width="18.6667" height="13.3333"/>
+  <object id="5" name="Door2" type="Door" x="545.333" y="576.333" width="13.3333" height="15.6667"/>
+  <object id="1" name="churchDoor" type="Door" x="480.667" y="608.667" width="13.6667" height="14.6667"/>
+  <object id="6" name="Door3" type="Door" x="751.667" y="464" width="0.666667" height="13.6667"/>
+ </objectgroup>
+</map>
